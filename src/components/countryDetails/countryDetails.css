@@ -1,0 +1,51 @@
+.card__container {
+  color: #fff;
+  display: grid;
+  flex-direction: column;
+}
+
+.card__flag {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card__flag__img {
+  width: 100%;
+  min-width: 100px;
+  max-width: 500px;
+}
+
+.card__map__img {
+  height: 170px;
+  width: 100%;
+  min-width: 100px;
+  max-width: 500px;
+
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card__map {
+  display: flex;
+  flex-direction: column;
+}
+
+.container__content {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-right: 20px;
+}
+
+.content p {
+  margin-block-end: 5px;
+  font-size: small;
+}
+
+.content h4 {
+  margin-block-start: 5px;
+}

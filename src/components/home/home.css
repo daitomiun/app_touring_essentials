@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.search-bar {
+  width: 350px;
+
+  margin-bottom: 20px;
+  height: 30px;
+
+  background: #4a4a4a;
+  border-radius: 6px;
+}
+
+.search-bar::placeholder,
+.search-bar:focus {
+  color: #fff;
+  padding: 0 5px;
+}
